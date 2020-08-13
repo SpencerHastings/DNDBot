@@ -9,8 +9,8 @@ Uses python indicated in `.tool-versons`
 ## Install discord.py
 `pip install discord`
 
-## Install other dependencies (none yet)
-`pip install`
+## Install other dependencies
+`pip install dice`
 
 ## Bot Token
 Copy botToken.py.example to botToken.py and add token to use
@@ -25,6 +25,7 @@ or run main.py manually
 
 ### Everyone
 - ping: pong!
+- roll: returns roll using https://github.com/borntyping/python-dice; reference for dice notation
 
 ### Bot Master
 - stop: Stops bot.

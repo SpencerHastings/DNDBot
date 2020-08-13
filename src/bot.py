@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from .settings import prefix
 from .commands.ping import ping
+from .commands.roll import roll
 
 bot = commands.Bot(command_prefix=prefix)
 
@@ -18,3 +19,4 @@ async def on_ready():
     print('Bot Started')
 
 bot.add_command(ping)
+bot.add_command(roll)
