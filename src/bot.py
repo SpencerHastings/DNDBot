@@ -5,6 +5,7 @@ from .settings import prefix
 # Cog Class Imports
 from .cogs.admin import Admin
 from .cogs.ping import Ping
+from .cogs.reminder import Reminder
 from .cogs.roll import Roll
 
 bot = commands.Bot(command_prefix=prefix)
@@ -12,6 +13,7 @@ bot = commands.Bot(command_prefix=prefix)
 # Adding Cogs
 bot.add_cog(Admin(bot))
 bot.add_cog(Ping(bot))
+bot.add_cog(Reminder(bot))
 bot.add_cog(Roll(bot))
 
 @bot.event
